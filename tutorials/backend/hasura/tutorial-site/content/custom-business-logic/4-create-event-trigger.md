@@ -14,7 +14,7 @@ Open the Hasura console, head to the Events tab and click on the Create trigger 
 
 ## Add Event Trigger
 
-Give a name for the event trigger (say send_email) and select the table `users` and select the operation `insert`.
+Give a name for the event trigger (say send_email) and select the table `users` and select the operation `insert` and set Webhook url to `https://YOUR_APP_NAME.glitch.me/send-email`.
 
 Click on `Create`.
 
